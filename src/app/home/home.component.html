@@ -1,4 +1,16 @@
 <div class="mt-5 d-flex justify-content-center gap-5">
-  <button class="btn btn-primary">Vai ai post attivi</button>
-  <button class="btn btn-primary">Vai ai post inattivi</button>
+  <button
+    class="btn btn-primary"
+    [routerLink]="['/active-posts']"
+    routerLinkActive="active"
+  >
+    Vai ai post attivi
+  </button>
+  <button
+    class="btn btn-primary"
+    [routerLink]="['/inactive-posts']"
+    routerLinkActive="active"
+  >
+    Vai ai post inattivi
+  </button>
 </div>
